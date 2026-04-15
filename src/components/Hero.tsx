@@ -52,7 +52,9 @@ export default function Hero() {
                 <ArrowRight size={18} />
               </a>
               <a
-                href="#demo"
+                href="https://wa.me/919848760585?text=Hello!%20I%20would%20like%20to%20book%20a%20free%20demo%20session."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl glass text-white font-semibold text-base hover:bg-white/10 transition-all"
               >
                 Book Free Demo

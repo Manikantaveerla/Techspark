@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Code2, Database, Cpu, Globe, ArrowUpRight } from 'lucide-react';
+import dataEngineerSyllabus from './syllabus/Data_Engineer_Syllabus.pdf';
 
 const courses = [
   {
@@ -27,7 +28,8 @@ const courses = [
     icon: <Database className="text-purple-400" />,
     tools: ['Snowflake', 'AWS', 'dbt', 'SQL', 'Airflow'],
     level: 'Intermediate to Advanced',
-    color: 'from-purple-500/20 to-pink-500/20'
+    color: 'from-purple-500/20 to-pink-500/20',
+    syllabusLink: dataEngineerSyllabus
   },
   {
     title: 'AI / ML Career',
@@ -87,7 +89,7 @@ export default function Courses() {
               className={`relative group overflow-hidden rounded-3xl p-8 glass border-white/5 hover:border-white/20 transition-all`}
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${course.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-              
+
               <div className="relative z-10">
                 <div className="flex justify-between items-start mb-6">
                   <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center text-2xl">
@@ -112,10 +114,20 @@ export default function Courses() {
                   ))}
                 </div>
 
-                <button className="w-full py-4 rounded-xl border border-white/10 font-bold text-sm group-hover:bg-white group-hover:text-brand-primary transition-all flex items-center justify-center gap-2">
+                <a 
+                  href={course.syllabusLink || "#"} 
+                  download={course.syllabusLink ? true : undefined}
+                  onClick={(e) => {
+                    if (!course.syllabusLink) {
+                      e.preventDefault();
+                      alert("Syllabus coming soon!");
+                    }
+                  }}
+                  className="w-full py-4 rounded-xl border border-white/10 font-bold text-sm group-hover:bg-white group-hover:text-brand-primary transition-all flex items-center justify-center gap-2 cursor-pointer"
+                >
                   Download Syllabus
                   <ArrowUpRight size={16} />
-                </button>
+                </a>
               </div>
             </motion.div>
           ))}
