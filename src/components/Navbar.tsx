@@ -33,10 +33,10 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2">
               <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center font-bold text-brand-primary text-xl">
-                T
+                M
               </div>
               <span className="text-xl font-bold font-display tracking-tight">
-                TechSpark <span className="text-brand-accent">AI Labs</span>
+                Master<span className="text-brand-accent">DEAI</span>
               </span>
             </a>
           </div>

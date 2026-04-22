@@ -49,7 +49,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-bold text-white mb-1">Call or WhatsApp</h4>
-                  <a href="https://wa.me/919848760585?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20courses." className="text-white/60 hover:text-brand-accent transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919848760585" className="text-white/60 hover:text-brand-accent transition-colors">
                     +91 9848760585
                   </a>
                 </div>
@@ -61,7 +61,9 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-bold text-white mb-1">Email Us</h4>
-                  <p className="text-white/60">info@techsparkailabs.com</p>
+                  <a href="mailto:masterdeai79@gmail.com" className="text-white/60 hover:text-brand-accent transition-colors">
+                    masterdeai79@gmail.com
+                  </a>
                 </div>
               </div>
 

@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: 'Is there a certificate after completion?',
-    answer: 'Yes, upon successful completion of the training and projects, you will receive a professional Certificate of Completion from TechSpark AI Labs.'
+    answer: 'Yes, upon successful completion of the training and projects, you will receive a professional Certificate of Completion from MasterDEAI.'
   },
   {
     question: 'Do you provide mock interviews?',

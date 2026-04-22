@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="space-y-6">
             <a href="#" className="flex items-center gap-2">
               <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center font-bold text-brand-primary text-xl">
-                T
+                M
               </div>
               <span className="text-xl font-bold font-display tracking-tight">
-                TechSpark <span className="text-brand-accent">AI Labs</span>
+                Master<span className="text-brand-accent">DEAI</span>
               </span>
             </a>
             <p className="text-white/40 text-sm leading-relaxed">
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3 text-sm text-white/40">
                 <Mail size={18} className="text-brand-accent shrink-0" />
-                <span>info@techsparkailabs.com</span>
+                <a href="mailto:masterdeai79@gmail.com" className="hover:text-brand-accent transition-colors">masterdeai79@gmail.com</a>
               </li>
               <li className="flex items-start gap-3 text-sm text-white/40">
                 <MapPin size={18} className="text-brand-accent shrink-0" />
@@ -73,7 +73,7 @@ export default function Footer() {
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/20 text-xs">
-            © {new Date().getFullYear()} TechSpark AI Labs. All rights reserved.
+            © {new Date().getFullYear()} MasterDEAI. All rights reserved.
           </p>
           <div className="flex gap-8">
             <a href="#" className="text-white/20 hover:text-white transition-colors text-xs">Privacy Policy</a>

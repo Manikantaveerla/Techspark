@@ -45,7 +45,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-bold font-display mb-4"
           >
-            Why Choose <span className="text-brand-accent">TechSpark AI Labs?</span>
+            Why Choose <span className="text-brand-accent">MasterDEAI?</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

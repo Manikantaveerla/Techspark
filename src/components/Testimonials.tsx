@@ -26,7 +26,7 @@ const testimonials = [
   {
     name: 'Sneha Reddy',
     role: 'Python Developer',
-    content: 'TechSpark AI Labs provides the best mentorship. The live classes are interactive, and the recorded sessions are great for revision.',
+    content: 'MasterDEAI provides the best mentorship. The live classes are interactive, and the recorded sessions are great for revision.',
     rating: 5,
     image: 'https://i.pravatar.cc/150?u=sneha'
   }
@@ -48,7 +48,7 @@ export default function Testimonials() {
             What Our <span className="text-brand-accent">Students Say</span>
           </motion.h2>
           <p className="text-white/60 max-w-2xl mx-auto text-lg">
-            Hear from our alumni who have successfully transformed their careers with TechSpark AI Labs.
+            Hear from our alumni who have successfully transformed their careers with MasterDEAI.
           </p>
         </div>
 
