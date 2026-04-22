@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin, Zap } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center font-bold text-brand-primary text-xl">
-                M
+              <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center text-brand-primary">
+                <Zap size={24} fill="currentColor" />
               </div>
               <span className="text-xl font-bold font-display tracking-tight">
                 Master<span className="text-brand-accent">DEAI</span>

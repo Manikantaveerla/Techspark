@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Zap } from 'lucide-react';
 
 const navLinks = [
   { name: 'About', href: '#about' },
@@ -32,8 +32,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center font-bold text-brand-primary text-xl">
-                M
+              <div className="w-10 h-10 accent-gradient rounded-lg flex items-center justify-center text-brand-primary">
+                <Zap size={24} fill="currentColor" />
               </div>
               <span className="text-xl font-bold font-display tracking-tight">
                 Master<span className="text-brand-accent">DEAI</span>
